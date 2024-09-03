@@ -1,0 +1,214 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    
+}
+
+ .Menu{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    height: 45px;
+    margin:0px;
+    text-decoration: none;
+    list-style: none;
+    position: sticky;
+    border-radius: 5px;
+    position: sticky;
+    }
+
+a:hover{
+    color:#8C7632;
+    text-decoration: none;
+    background-color: rgba(228, 228, 228, 0.063); 
+    border: 3px;
+}
+
+a::before{
+    color: white;
+}
+
+a::-moz-focus-inner{
+    color:aliceblue
+}
+
+a{  color:#F266C1;
+    text-decoration: none;
+    padding: 9px;
+    gap: 10px;
+}
+
+.head{
+    background-image: url(./Imagenes/Fondo.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.title{
+    font-size: 50px;
+}
+
+#icon {
+    animation: icons 2s steps(4)  infinite;
+    animation-timing-function: linear;
+    position: static;
+} 
+
+@keyframes icons {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+    } 
+   
+.sobremi{
+    text-align: start;
+    text-decoration: none;
+    justify-content: left;
+    margin-top: 320px;
+    margin-left: 20PX;
+    margin-bottom:50px;
+    display: flex;
+}
+
+.foto2{
+    float: inline-start;
+}
+
+.section2{
+    font-size: 50px;
+    text-align: center;
+    color: #F266C1;
+}
+.typing{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 540px;
+}   
+
+.typing{
+    animation: animation 3.5s steps(26), type .5s step-end infinite alternate;
+    width: 17.1em;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2ch;
+    border-right: 3px solid;
+    text-align: center;
+    justify-content: center;
+}
+
+@keyframes animation{
+    from{width: 0px;}
+}
+
+@keyframes type {
+    50%{border-color: transparent;}
+
+}
+h4{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 30px;
+    color: #F266C1;
+    
+}
+
+.subtitulo1{
+    padding:5px;
+    text-align: center;
+    font-size: 20px; 
+    margin-bottom: 30px;
+}
+    
+.Galería{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 3fr;
+    align-items: center;
+    text-justify: newspaper;
+    gap: 10px;
+    margin-left: 10px;
+}
+ 
+.botom{
+    background-color: #8C7632;
+    border-radius: 3px;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botom:hoover{
+    color: #F266C1;
+    background-color: rgba(228, 228, 228, 0.063); 
+    text-decoration: none; 
+    border-radius: 3px;
+}
+
+h5{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 30px;
+    color: #F266C1;
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 1500px;
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: left;
+    margin-left: 20px;
+}
+label{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #EDFFF0;
+    border: 2px solid #F0FAF1;
+    outline: none;
+}
+
+.btn{
+    background-color: #8C7632;
+    cursor: pointer;
+    align-content: flex-start;
+}
+
+footer{
+    background-color: #8C7632;
+    background-position: cover;
+    text-align: center;
+    padding: 3px;
+}
